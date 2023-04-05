@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Globalization;
 
 namespace BMI_Calculator
 {
@@ -25,47 +24,48 @@ namespace BMI_Calculator
 
             bmi = weight / (height * height);
 
+            string classification = "";
+            string healthRisk = "";
+
             if (bmi < 18.5)
             {
-                Console.WriteLine("BMI: " + bmi);
-                Console.WriteLine("Classification: Under Weight");
-                Console.WriteLine("Health Risk: Minimal");
+                classification = "Under Weight";
+                healthRisk = "Minimal";
             }
 
             else if (bmi >= 18.5  && bmi <= 24.9)
             {
-                Console.WriteLine("BMI: " + bmi);
-                Console.WriteLine("Classification: Normal");
-                Console.WriteLine("Health Risk: Minimal");
+                classification = "Normal";
+                healthRisk = "Minimal";
             }
 
             else if (bmi >= 25 && bmi <= 29.9)
             {
-                Console.WriteLine("BMI: " + bmi);
-                Console.WriteLine("Classification: Over Weight");
-                Console.WriteLine("Health Risk: Increased");
+                classification = "Over Weight";
+                healthRisk = "Increased";
             }
 
             else if (bmi >= 30 && bmi <= 34.9)
             {
-                Console.WriteLine("BMI: " + bmi);
-                Console.WriteLine("Classification: Obesity ( Class 1 )");
-                Console.WriteLine("Health Risk: High");
+                classification = "Obesity ( Class 1 )";
+                healthRisk = "High";
             }
 
             else if (bmi >= 35 && bmi <= 39.9)
             {
-                Console.WriteLine("BMI: " + bmi);
-                Console.WriteLine("Classification: Obesity ( Class 2 )");
-                Console.WriteLine("Health Risk: Very High");
+                classification = "Obesity ( Class 2 )";
+                healthRisk = "Very High";
             }
 
             else
             {
-                Console.WriteLine("BMI: " + bmi);
-                Console.WriteLine("Classification: Extreme Obesity");
-                Console.WriteLine("Health Risk: Extremely High");
+                classification = "Extreme Obesity";
+                healthRisk = "Extremely High";
             }
+
+            Console.WriteLine("BMI: " + bmi);
+            Console.WriteLine("Classification: " + classification);
+            Console.WriteLine("Health Risk: " + healthRisk);
         }
     }
 }
