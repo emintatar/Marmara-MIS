@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Emin Tatar\\Desktop\\Homework 15-04-2023\\Task6\\Task6.csproj",
+      "projectUniqueName": "E:\\AET\\MARMARA MIS\\Marmara MIS\\MIS1042\\Homework 15-04-2023\\Task6\\Task6.csproj",
       "projectName": "Task6",
-      "projectPath": "C:\\Users\\Emin Tatar\\Desktop\\Homework 15-04-2023\\Task6\\Task6.csproj",
+      "projectPath": "E:\\AET\\MARMARA MIS\\Marmara MIS\\MIS1042\\Homework 15-04-2023\\Task6\\Task6.csproj",
       "packagesPath": "C:\\Users\\Emin Tatar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Emin Tatar\\Desktop\\Homework 15-04-2023\\Task6\\obj\\",
+      "outputPath": "E:\\AET\\MARMARA MIS\\Marmara MIS\\MIS1042\\Homework 15-04-2023\\Task6\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

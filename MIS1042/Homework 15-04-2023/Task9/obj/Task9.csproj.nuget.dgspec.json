@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Emin Tatar\\Desktop\\Homework 15-04-2023\\Task9\\Task9.csproj": {}
+    "E:\\AET\\MARMARA MIS\\Marmara MIS\\MIS1042\\Homework 15-04-2023\\Task9\\Task9.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Emin Tatar\\Desktop\\Homework 15-04-2023\\Task9\\Task9.csproj": {
+    "E:\\AET\\MARMARA MIS\\Marmara MIS\\MIS1042\\Homework 15-04-2023\\Task9\\Task9.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Emin Tatar\\Desktop\\Homework 15-04-2023\\Task9\\Task9.csproj",
+        "projectUniqueName": "E:\\AET\\MARMARA MIS\\Marmara MIS\\MIS1042\\Homework 15-04-2023\\Task9\\Task9.csproj",
         "projectName": "Task9",
-        "projectPath": "C:\\Users\\Emin Tatar\\Desktop\\Homework 15-04-2023\\Task9\\Task9.csproj",
+        "projectPath": "E:\\AET\\MARMARA MIS\\Marmara MIS\\MIS1042\\Homework 15-04-2023\\Task9\\Task9.csproj",
         "packagesPath": "C:\\Users\\Emin Tatar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Emin Tatar\\Desktop\\Homework 15-04-2023\\Task9\\obj\\",
+        "outputPath": "E:\\AET\\MARMARA MIS\\Marmara MIS\\MIS1042\\Homework 15-04-2023\\Task9\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
